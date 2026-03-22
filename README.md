@@ -1,5 +1,7 @@
 # Airbyte (Server)
 
+![Airbyte Icon](./railwayapp-airbyte.svg)
+
 Deploy Airbyte server components on Railway.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new)
