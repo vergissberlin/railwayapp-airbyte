@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-airbyte",
+  "repo": "vergissberlin/railwayapp-airbyte",
+  "displayName": "Airbyte",
+  "publishedCode": "airbyte",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-airbyte/main/railwayapp-airbyte.svg",
+  "description": "Deploy Airbyte on Railway for data integration and ELT pipelines.",
+  "workspaceAutomation": false
+}
