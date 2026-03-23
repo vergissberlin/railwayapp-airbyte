@@ -67,3 +67,6 @@ Railway is a singular platform to deploy your infrastructure stack. Railway will
 
 By deploying Airbyte on Railway, you are one step closer to supporting a complete full-stack application with minimal burden. Host your servers, databases, AI agents, and more on Railway.
 <!-- End recommended section -->
+
+<!-- footer -->
+[![Airbyte](https://img.shields.io/badge/Airbyte-615EFF?style=for-the-badge&logo=airbyte&logoColor=white)](https://github.com/vergissberlin/railwayapp-airbyte)
