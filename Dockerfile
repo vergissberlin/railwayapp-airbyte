@@ -1,1 +1,1 @@
-FROM airbyte/server:0.64.5
+FROM airbyte/server:2.0.1
