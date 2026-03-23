@@ -1,6 +1,7 @@
 # Deploy and Host Airbyte on Railway
 
-![Airbyte Icon](./railwayapp-airbyte.svg)
+![Template Header](./template-header.svg)
+
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ILtPlT?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 

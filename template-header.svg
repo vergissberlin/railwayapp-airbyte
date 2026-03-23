@@ -1,0 +1,22 @@
+<svg width="1280" height="270" viewBox="0 0 1280 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Airbyte header banner</title>
+  <desc id="desc">Flat gradient banner for Airbyte template with software logo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1021"/>
+      <stop offset="0.55" stop-color="#131B3F"/>
+      <stop offset="1" stop-color="#1F174A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="270" rx="26" fill="url(#bg)"/>
+  <circle cx="1120" cy="68" r="34" fill="#4F46E5" opacity="0.33"/>
+  <circle cx="1185" cy="205" r="56" fill="#06B6D4" opacity="0.15"/>
+  
+      <rect x="64" y="60" width="152" height="152" rx="24" fill="#0B1228" opacity="0.92"/>
+      <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNjE1RUZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGl0bGU+QWlyYnl0ZTwvdGl0bGU+CiAgPHBhdGggZD0iTTguMzA4IDIuOTE0QzEwLjg3Ni4wMjcgMTUuMTI4LS44MTkgMTguNjI0Ljg0OGM0LjY0NCAyLjIxIDYuMzM5IDcuODQ2IDMuODA5IDEyLjE5NGwtNS42ODcgOS43N2MtLjMxOS41NDctLjg0Mi45NDQtMS40NTUgMS4xMDctLjYxMy4xNjMtMS4yNjcuMDc5LTEuODE4LS4yMzZsNi44ODctMTEuODMyYzEuODM1LTMuMTU1LjYwOC03LjI0My0yLjc1OC04Ljg1NC0yLjUyOC0xLjIwOC01LjYxMy0uNjA0LTcuNDgyIDEuNDczLTEuMDMxIDEuMTM5LTEuNjA4IDIuNjEzLTEuNjI4IDQuMTQ1LS4wMTggMS41MzIuNTI0IDMuMDE5IDEuNTI0IDQuMTg1LjE3OS4yMS4zNzIuNDA2LjU3OS41ODhsLTQuMDIxIDYuOTE5Yy0uMTU3LjI3My0uMzY1LjUxLS42MTcuNjk5LS4yNDkuMTg5LS41MzQuMzI5LS44MzguNDExLS4zMDMuMDgxLS42MjEuMS0uOTMuMDYxLS4zMTMtLjA0MS0uNjE0LS4xNDMtLjg4NS0uMjk4bDQuMzY0LTcuNTEzQzcuMDQxIDEyLjc3IDYuNTkgMTEuNzYzIDYuMzQgMTAuN2wtMi42NzUgNC42MTJjLS4zMTcuNTQ1LS44NDIuOTQ0LTEuNDUzIDEuMTA3LS42MTUuMTY0LTEuMjY5LjA3OS0xLjgxOC0uMjM3TDcuMzEgNC4yODRjLjI5LS40ODcuNjIyLS45NDguOTk4LTEuMzdabTcuOTgzIDMuNzg0YzEuNjY2Ljk1NiAyLjI0MiAzLjA4MSAxLjI3NyA0LjczNEwxMC45MzYgMjIuODFjLS4zMTcuNTQ3LS44NC45NDUtMS40NTUgMS4xMDktLjYxMi4xNjItMS4yNjguMDc5LTEuODE2LS4yMzdsNi4xNTktMTAuNTk2Yy0uNDk1LS4xLS45Ni0uMzA4LTEuMzY1LS42MS0uNDA1LS4zLS43NDMtLjY4Mi0uOTgxLTEuMTIyLS4yNDItLjQ0MS0uMzg1LS45MjgtLjQxOC0xLjQyOC0uMDMzLS41MDEuMDQ1LTEuMDAyLjIyNC0xLjQ3LjE4LS40NjguNDYyLS44OTMuODI0LTEuMjQyLjM2Mi0uMzUuNzk1LS42MTggMS4yNzMtLjc4NC40NzQtLjE2OC45ODItLjIzIDEuNDg1LS4xODMuNTAyLjA0Ni45ODkuMiAxLjQyNS40NTFabS0yLjQxMiAyLjEzOWMtLjExNC4wODctLjIxLjE5Ni0uMjgyLjMyLS4xMDYuMTg2LS4xNTguMzk4LS4xNDQuNjEzLjAxNC4yMTUuMDkyLjQyLjIyNC41OTIuMTMuMTY3LjMxLjI5Ny41MTUuMzY3LjIwNy4wNjguNDI3LjA3Ny42MzYuMDIuMjA5LS4wNTYuMzk2LS4xNzIuNTQtLjMzNC4xNDMtLjE2MS4yMzQtLjM2LjI2My0uNTc0LjAyNy0uMjEzLS4wMDgtLjQzLS4xMDUtLjYyMi0uMDk3LS4xOTUtLjI0Ni0uMzU0LS40MzMtLjQ2LS4xMjYtLjA3Mi0uMjYzLS4xMTgtLjQwNi0uMTM2LS4xNDMtLjAyLS4yODYtLjAxLS40MjQuMDI2LS4xNC4wMzgtLjI3MS4xMDEtLjM4NC4xODhaIi8+Cjwvc3ZnPgo=" x="84" y="80" width="112" height="112" preserveAspectRatio="xMidYMid meet"/>
+    
+  <text x="258" y="122" fill="#FFFFFF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="52" font-weight="800">Airbyte</text>
+  <text x="258" y="168" fill="#B6C2FF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="28" font-weight="500">Railway Template</text>
+  <rect x="258" y="188" width="286" height="44" rx="22" fill="#1C285D" stroke="#67E8F9" stroke-opacity="0.6"/>
+  <text x="284" y="216" fill="#CFFAFE" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="19" font-weight="700">Deploy on Railway</text>
+</svg>
