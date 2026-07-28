@@ -1,1 +1,1 @@
-FROM airbyte/server:2.0.1
+FROM airbyte/server:2.1.1
