@@ -35,7 +35,7 @@ This template ships a small surface area you can extend on Railway:
 - `Dockerfile` — runs the official server image (pin updates the Airbyte version):
 
 ```dockerfile
-FROM airbyte/server:0.64.5
+FROM airbyte/server:2.1.1
 ```
 
 - `railway.toml` — Dockerfile builder plus health check and restart policy:
@@ -46,19 +46,19 @@ builder = "DOCKERFILE"
 
 [deploy]
 healthcheckPath = "/api/v1/health"
-healthcheckTimeout = 300
+healthcheckTimeout = 900
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
 ```
 
-Set core variables in Railway (see `.env.example` in the repo). Typical values once sibling services exist:
+Set core variables in Railway (see `.env.example` in the repo). Typical values once sibling services exist, using Railway reference variables so credentials and hostnames are resolved from the actual services in your project rather than hardcoded:
 
 ```bash
-DATABASE_URL=postgresql://airbyte:airbyte@postgres:5432/airbyte
-TEMPORAL_HOST=temporal:7233
+DATABASE_URL=${{Postgres.DATABASE_URL}}
+TEMPORAL_HOST=${{Temporal.RAILWAY_PRIVATE_DOMAIN}}
 ```
 
-Adjust hostnames and credentials to match your Railway service names. Use persistent storage where Airbyte or connectors expect durable state; run Worker and Webapp as separate services for production.
+Replace `Postgres` and `Temporal` with the actual service names in your Railway project. Use persistent storage where Airbyte or connectors expect durable state; run Worker and Webapp as separate services for production.
 
 ## Why Deploy Airbyte on Railway?
 
