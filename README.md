@@ -6,6 +6,20 @@
 
 Airbyte is an open-source data integration platform. It syncs data from APIs, databases, files, and SaaS apps into warehouses, lakes, and other destinations using configurable connectors and schedules—so teams can centralize analytics-ready data without hand-building a new pipeline for every source.
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT"| Server["Container (this template)\nairbyte/server:2.1.1"]
+    Server -.->|"you add"| PG[("PostgreSQL\n(metadata)")]
+    Server -.->|"you add"| Temporal["Temporal\n(workflow orchestration)"]
+    Server -.->|"you add"| Worker["Airbyte Worker(s)"]
+    Server -.->|"you add"| Webapp["Airbyte Webapp"]
+```
+
+This template only ships the server container. PostgreSQL, Temporal, workers, and the webapp are separate services you add yourself (see below).
+
 ## About Hosting Airbyte
 
 Hosting Airbyte is a multi-service job: you run a control plane (API server and usually a web UI), workers that execute syncs, PostgreSQL for metadata and state, and Temporal for reliable workflow orchestration. On Railway you typically model each part as its own service, connect them over private networking, set secrets and environment variables, and add volumes where you need persistence for logs or connector state. This repository is a **server-only** template—a minimal base image plus Railway deploy settings—so you still add PostgreSQL, Temporal, Airbyte Worker, and Airbyte Webapp (or equivalents) to match [Airbyte’s architecture](https://docs.airbyte.com/). Tune health checks, retries, and worker capacity for production traffic.
