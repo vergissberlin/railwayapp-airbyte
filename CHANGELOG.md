@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.2.1](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.2.0...railwayapp-airbyte-v0.2.1) (2026-08-20)
+
+
+### Bug Fixes
+
+* add missing MIT LICENSE file ([#11](https://github.com/vergissberlin/railwayapp-airbyte/issues/11)) ([6f8d714](https://github.com/vergissberlin/railwayapp-airbyte/commit/6f8d7146ee4175fd4f789aa227a089e826f17a43))
+
+
+### Documentation
+
+* add architecture diagram to README ([#10](https://github.com/vergissberlin/railwayapp-airbyte/issues/10)) ([245326b](https://github.com/vergissberlin/railwayapp-airbyte/commit/245326bb28b033b612a6761c6f76a0bcab37cc59))
+* refresh shared template footer badges ([71096ee](https://github.com/vergissberlin/railwayapp-airbyte/commit/71096ee12ce0081e4ff3cdf90447d287b634fc85))
+
+
+### Chores
+
+* update shared template footer ([e819c10](https://github.com/vergissberlin/railwayapp-airbyte/commit/e819c109857fa5a722f8dcf01a1952412de9dce9))
+* update shared template footer ([280b23c](https://github.com/vergissberlin/railwayapp-airbyte/commit/280b23ccfbbd1e24897bf20532c2c1eec13f4dbb))
+
 ## [0.2.0](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.1.0...railwayapp-airbyte-v0.2.0) (2026-08-01)
 
 
