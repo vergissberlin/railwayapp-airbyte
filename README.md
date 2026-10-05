@@ -6,12 +6,15 @@
 
 Airbyte is an open-source data integration platform. It syncs data from APIs, databases, files, and SaaS apps into warehouses, lakes, and other destinations using configurable connectors and schedules—so teams can centralize analytics-ready data without hand-building a new pipeline for every source.
 
+> [!WARNING]
+> **Legacy version, pinned on purpose.** This template runs Airbyte **0.63.19**, the last release that still shipped a `docker-compose.yaml`. Airbyte ended Docker Compose support in August 2024; versions 1.x and 2.x are Kubernetes/`abctl` only and do not run as a plain container on Railway ([migration guide](https://docs.airbyte.com/platform/deploying-airbyte/migrating-from-docker-compose)). 0.63.x receives no further updates or connector fixes. Its worker also expects a Docker socket to launch connector containers, which Railway does not provide, so expect the server and API to work but syncs to be limited. Use this for evaluation only, not production.
+
 ## 🏗️ Architecture
 
 ```mermaid
 flowchart LR
     Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
-    Domain -->|"$PORT"| Server["Container (this template)\nairbyte/server:2.1.1"]
+    Domain -->|"$PORT"| Server["Container (this template)\nairbyte/server:0.63.19"]
     Server -.->|"you add"| PG[("PostgreSQL\n(metadata)")]
     Server -.->|"you add"| Temporal["Temporal\n(workflow orchestration)"]
     Server -.->|"you add"| Worker["Airbyte Worker(s)"]
@@ -49,7 +52,7 @@ This template ships a small surface area you can extend on Railway:
 - `Dockerfile` — runs the official server image (pin updates the Airbyte version):
 
 ```dockerfile
-FROM airbyte/server:2.1.1
+FROM airbyte/server:0.63.19
 ```
 
 - `railway.toml` — Dockerfile builder plus health check and restart policy:

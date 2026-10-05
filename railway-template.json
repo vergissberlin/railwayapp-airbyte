@@ -6,6 +6,6 @@
   "displayName": "Airbyte",
   "publishedCode": "airbyte",
   "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-airbyte/main/railwayapp-airbyte.svg",
-  "description": "Deploy Airbyte on Railway for data integration and ELT pipelines.",
+  "description": "Legacy Airbyte 0.63.19 server (last Docker release), unmaintained",
   "workspaceAutomation": false
 }
