@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "description": "Airbyte 1.x/2.x no longer ship Docker images that run standalone (Kubernetes/abctl only). This legacy template stays on 0.63.x.",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["airbyte/server"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    }
   ]
 }

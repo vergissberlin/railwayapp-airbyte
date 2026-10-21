@@ -9,6 +9,10 @@ Airbyte is an open-source data integration platform. It syncs data from APIs, da
 > [!WARNING]
 > **Legacy version, pinned on purpose.** This template runs Airbyte **0.63.19**, the last release that still shipped a `docker-compose.yaml`. Airbyte ended Docker Compose support in August 2024; versions 1.x and 2.x are Kubernetes/`abctl` only and do not run as a plain container on Railway ([migration guide](https://docs.airbyte.com/platform/deploying-airbyte/migrating-from-docker-compose)). 0.63.x receives no further updates or connector fixes. Its worker also expects a Docker socket to launch connector containers, which Railway does not provide, so expect the server and API to work but syncs to be limited. Use this for evaluation only, not production.
 
+
+> [!WARNING]
+> **Deprecated / legacy template.** This template only deploys the Airbyte **0.63.19** server container, the last release with Docker Compose support. It needs PostgreSQL, Temporal, a worker and the webapp that you add yourself, the worker cannot launch connector containers on Railway (no Docker socket), and it receives no further updates. Use it for evaluation only. For a supported setup, use [Airbyte Cloud](https://airbyte.com) or a Kubernetes-based deployment with `abctl`.
+
 ## 🏗️ Architecture
 
 ```mermaid
