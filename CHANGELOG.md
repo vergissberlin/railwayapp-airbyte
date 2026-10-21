@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.2.1...railwayapp-airbyte-v0.2.2) (2026-10-21)
+
+
+### Documentation
+
+* mark the template as deprecated and ignore Airbyte v2+ ([#13](https://github.com/vergissberlin/railwayapp-airbyte/issues/13)) ([f1a8f9b](https://github.com/vergissberlin/railwayapp-airbyte/commit/f1a8f9b7bb288954adce5090779586832f63a07c))
+
 ## [0.2.1](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.2.0...railwayapp-airbyte-v0.2.1) (2026-10-05)
 
 
