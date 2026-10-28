@@ -2,7 +2,7 @@
 
 ![Template Header](./template-header.svg)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ILtPlT?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/airbyte?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 Airbyte is an open-source data integration platform. It syncs data from APIs, databases, files, and SaaS apps into warehouses, lakes, and other destinations using configurable connectors and schedules—so teams can centralize analytics-ready data without hand-building a new pipeline for every source.
 
