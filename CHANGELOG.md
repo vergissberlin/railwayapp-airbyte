@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.2.2...railwayapp-airbyte-v0.2.3) (2026-10-28)
+
+
+### Documentation
+
+* fix Railway deploy button link and add template forum link ([#15](https://github.com/vergissberlin/railwayapp-airbyte/issues/15)) ([5317dfc](https://github.com/vergissberlin/railwayapp-airbyte/commit/5317dfc6ec143aeb99fa76e55d7af70168223c7e))
+
 ## [0.2.2](https://github.com/vergissberlin/railwayapp-airbyte/compare/railwayapp-airbyte-v0.2.1...railwayapp-airbyte-v0.2.2) (2026-10-21)
 
 
