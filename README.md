@@ -2,7 +2,7 @@
 
 ![Template Header](./template-header.svg)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ILtPlT?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/airbyte?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 Airbyte is an open-source data integration platform. It syncs data from APIs, databases, files, and SaaS apps into warehouses, lakes, and other destinations using configurable connectors and schedules—so teams can centralize analytics-ready data without hand-building a new pipeline for every source.
 
@@ -88,6 +88,10 @@ Railway is a singular platform to deploy your infrastructure stack. Railway will
 
 By deploying Airbyte on Railway, you are one step closer to supporting a complete full-stack application with minimal burden. Host your servers, databases, AI agents, and more on Railway.
 <!-- End recommended section -->
+
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/airbyte-e90be1e8).
 
 <!-- footer -->
 ---
